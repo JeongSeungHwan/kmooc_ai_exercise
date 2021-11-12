@@ -111,7 +111,7 @@ import os
 import sklearn
 import sklearn.datasets
 import sklearn.linear_model
-import h5py
+#import h5py
 
 def iris_data(standardized=False, shuffled=False): 
     try: 
