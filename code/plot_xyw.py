@@ -41,8 +41,9 @@ def plot_xyw(x, y, W=None, X0=False, title='Perceptron',
     for num, ix, iy in zip(nums, x, y):
         if annotate == True:
             plt.annotate(num, xy=ix)
-        ## can be replaced using plt.scatter
         ##if iy == 1:
+        ## can be rep
+        # laced using plt.scatter
         ##    c1, = plt.plot(ix[0], ix[1], label='class 1', marker='s', color='blue')
         ##else:
         ##    c2, = plt.plot(ix[0], ix[1], label='class 2', marker='o', color='orange')
